@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="edu.cinec.healthwellness.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <!-- Add other fragments here as they are implemented -->
+    <fragment
+        android:id="@+id/nav_bmi"
+        android:name="edu.cinec.healthwellness.BmiFragment"
+        android:label="BMI"
+        tools:layout="@layout/fragment_bmi" />
+    <fragment
+        android:id="@+id/nav_tips"
+        android:name="edu.cinec.healthwellness.TipsFragment"
+        android:label="Tips" />
+    <fragment
+        android:id="@+id/nav_nutrition"
+        android:name="edu.cinec.healthwellness.NutritionFragment"
+        android:label="Nutrition"
+        tools:layout="@layout/fragment_nutrition" />
+    <fragment
+        android:id="@+id/nav_advice"
+        android:name="edu.cinec.healthwellness.AdviceFragment"
+        android:label="Advice"
+        tools:layout="@layout/fragment_advice" />
+
+</navigation>

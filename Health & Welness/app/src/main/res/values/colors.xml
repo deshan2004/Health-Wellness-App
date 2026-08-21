@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary_green">#10B981</color>
+    <color name="primary">@color/primary_green</color>
+    <color name="secondary">@color/soft_green_bg</color>
+    <color name="soft_green_bg">#E8F5E9</color>
+    <color name="screen_background">#F8FAFC</color>
+
+    <color name="text_primary">#1E293B</color>
+    <color name="text_secondary">#64748B</color>
+
+    <color name="stat_steps_bg">#E2F6F1</color>
+    <color name="stat_water_bg">#E0F2FE</color>
+    <color name="stat_sleep_bg">#F0FDF4</color>
+
+    <color name="nav_active">#10B981</color>
+    <color name="nav_inactive">#94A3B8</color>
+    <color name="nav_bg">#FFFFFF</color>
+</resources>
