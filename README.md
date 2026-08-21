@@ -12,7 +12,7 @@ A native Android mobile application designed to help users track personal biomet
 ## 📱 Features & Modules
 
 - **📊 BMI Calculator:** 
-  - Calculates Body Mass Index in real time using weight ($kg$) and height ($cm/m$).
+  - Calculates Body Mass Index in real time using weight (kg) and height (cm/m).
   - Automatic WHO category categorization (*Underweight, Normal, Overweight, Obese*).
   - Defensive input sanitization and zero-division protection.
 - **💡 Health Tips Feed:** 
@@ -24,13 +24,24 @@ A native Android mobile application designed to help users track personal biomet
 
 ---
 
+## 📸 Screenshots
+
+| Home Dashboard | BMI Calculator | Health Tips |
+| :---: | :---: | :---: |
+| <img src="screenshots/home_dashboard.jpg" width="260" alt="Home Dashboard"> | <img src="screenshots/bmi_calculator.jpg" width="260" alt="BMI Calculator"> | <img src="screenshots/health_tips.jpg" width="260" alt="Health Tips"> |
+
+| Eating Habits | Health Advice |
+| :---: | :---: |
+| <img src="screenshots/eating_habits.jpg" width="260" alt="Eating Habits"> | <img src="screenshots/health_advice.jpg" width="260" alt="Health Advice"> |
+
+---
+
 ## 🏗️ Architecture & Navigation
 
 The app strictly follows Google's **Single-Activity Architecture**:
 - **Host Activity:** `MainActivity` with `NavHostFragment`
 - **Navigation Pattern:** `BottomNavigationView` synced with Android Jetpack Navigation Graph (`nav_graph.xml`)
 - **UI & Lifecycle Management:** `ViewBinding` with zero memory leaks (`_binding = null` in `onDestroyView`)
-
 
 ---
 
@@ -48,20 +59,9 @@ The app strictly follows Google's **Single-Activity Architecture**:
 
 ---
 
-## 📸 Screenshots
-
-| Home Dashboard | BMI Calculator | Health Tips |
-| :---: | :---: | :---: |
-| *(Add Screenshot)* | *(Add Screenshot)* | *(Add Screenshot)* |
-
-| Eating Habits | Health Advice |
-| :---: | :---: |
-| *(Add Screenshot)* | *(Add Screenshot)* |
-
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/your-username/health-and-wellness-app.git](https://github.com/your-username/health-and-wellness-app.git)
+git clone https://github.com/deshan2004/Health-Wellness-App.git
+```
